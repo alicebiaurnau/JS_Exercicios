@@ -7,13 +7,13 @@ palpite = parseInt(prompt("Digite um valor: "))
 
 while(palpite!=nAleatorio){
     if(palpite>nAleatorio){
-        alert("Seu palpite é maior que o número sorteado")
+        alert("Seu palpite é MAIOR que o número sorteado")
     }
     if(palpite<nAleatorio){
-        alert("Seu palpite é menor que o número sorteado")
+        alert("Seu palpite é MENOR que o número sorteado")
     }
     palpite = parseInt(prompt("Digite um novo valor: "))
 
     tentativas++
 }
-alert("Você acertou o valor!! "+nAleatorio+" em "+tentativas+" Tentativas")
+alert("Você acertou o valor!! "+nAleatorio+", em "+tentativas+" Tentativas")
